@@ -1,6 +1,6 @@
-import fiberFront from "@/assets/fiber-1530-front.jpg";
-import fiberTop from "@/assets/fiber-1530-top.jpg";
-import fiberHead from "@/assets/fiber-1530-head.jpg";
+import fiberFront from "@/assets/fiber-3015-front.jpg";
+import fiberTop from "@/assets/fiber-3015-top.jpg";
+import fiberHead from "@/assets/fiber-3015-head.jpg";
 import welder1 from "@/assets/welder-1.jpg";
 import welder2 from "@/assets/welder-2.jpg";
 import welder3 from "@/assets/welder-3.jpg";
@@ -30,13 +30,13 @@ export const MACHINE_CATEGORIES: { id: "all" | MachineCategory; label: string }[
 
 export const MACHINES: Machine[] = [
   {
-    id: "fiber-1530",
-    name: "CNC Fiber 1530",
+    id: "fiber-3015",
+    name: "CNC Fiber 3015",
     tagline: "Универсальный станок для листового металла",
     category: "cutting",
     gallery: [fiberFront, fiberTop, fiberHead],
     specs: [
-      ["Рабочее поле", "1500 × 3000 мм"],
+      ["Рабочее поле", "3000 × 1500 мм"],
       ["Мощность резака", "1,5 / 3 кВт"],
       ["Скорость позиционирования", "до 100 м/мин"],
       ["Макс. толщина (сталь)", "до 16 мм"],
